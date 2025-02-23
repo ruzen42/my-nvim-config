@@ -1,31 +1,21 @@
 local vim = vim
-local Plug = vim.fn['plug#']
 
-vim.call('plug#begin')
-
-Plug('mathofprimes/nightvision-nvim')
-Plug('sainnhe/everforest')
-
-Plug('kyazdani42/nvim-tree.lua')
-Plug('kyazdani42/nvim-web-devicons')
-Plug('romgrk/barbar.nvim')
-Plug('nvim-lualine/lualine.nvim')
-Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'})
-Plug('neovim/nvim-lspconfig') 
-
-vim.call('plug#end')
 
 home=os.getenv("HOME")
 package.path = home .. "/.config/nvim/?.lua;" .. package.path
 
+-- Load plugins
+require"plugins"
+
 require"theme"
 require"common"
 require"keymap"
-require"lsp"
 
 -- Plugins
 
+require"lsp"
 require"vimtree"
 require"barbar"
 require"lua_line"
 require"treesitter"
+require"cmp"
