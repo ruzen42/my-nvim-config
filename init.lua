@@ -21,6 +21,7 @@ package.path = home .. "/.config/nvim/?.lua;" .. package.path
 require"theme"
 require"common"
 require"keymap"
+require"lsp"
 
 -- Plugins
 
