@@ -12,7 +12,7 @@ opt.splitbelow = true
 opt.clipboard = 'unnamedplus'
 
 -- Отключаем дополнение файлов в конце
-opt.fixeol = false
+opt.fixeol = true
 
 -- Автодополнение (встроенное в Neovim)
 opt.completeopt = 'menuone,noselect'

@@ -1,6 +1,5 @@
 local vim = vim
 
-
 home=os.getenv("HOME")
 package.path = home .. "/.config/nvim/?.lua;" .. package.path
 
@@ -11,11 +10,15 @@ require"theme"
 require"common"
 require"keymap"
 
+
 -- Plugins
 
 require"lsp"
 require"vimtree"
-require"barbar"
+require"buffer"
 require"lua_line"
 require"treesitter"
-require"cmp"
+require"autocomp"
+
+
+
