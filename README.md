@@ -1,1 +1,2 @@
 # My nvim
+https://objects.githubusercontent.com/github-production-release-asset-2e65be/37267968/825feb56-d6e6-4f4f-9f29-7df79057be7f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250318T105947Z&X-Amz-Expires=300&X-Amz-Signature=bf326ba5bcf075e29e8dd425c935bb4357fb79c5ab17f9aa52463c3c06383009&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dsbopkg-0.38.3-noarch-1_wsr.tgz&response-content-type=application%2Foctet-stream
